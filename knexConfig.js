@@ -3,9 +3,9 @@ const knex = require('knex')
 module.exports = knex({
     client: 'mysql', 
     connection: {
-        host : 'bsogajkqgaisbpf8og4y-mysql.services.clever-cloud.com',
-        user : 'unk2rxnlqquwlqxu',
-        password : 'unk2rxnlqquwlqxu',
-        database : 'bsogajkqgaisbpf8og4y'
+        host : 'bzxbwi6a8c677t1mhmhl-mysql.services.clever-cloud.com',
+        user : 'uuybf34djwzttmnq',
+        password : 'uuybf34djwzttmnq',
+        database : 'bzxbwi6a8c677t1mhmhl'
     }
 });
