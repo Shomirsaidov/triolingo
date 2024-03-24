@@ -9,12 +9,8 @@
     "routes": [
         {
             "src": "/(.*)",
-            "dest": "/"
+            "dest": "/",
+            "config": { "maxDuration": 60 } 
         }
-    ],
-    "functions": {
-        "api": {
-            "maxDuration": 60
-        }
-    }
+    ]
 }
