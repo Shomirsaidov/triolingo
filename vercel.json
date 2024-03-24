@@ -9,8 +9,7 @@
     "routes": [
         {
             "src": "/(.*)",
-            "dest": "/",
-            "config": { "maxDuration": 60 } 
+            "dest": "/"
         }
     ]
 }
