@@ -35,8 +35,8 @@ const init = async () => {
       }
     });
 
-    await server.register([require('./posts/posts_list'), 
-                          require('./posts/posts_insert')]);
+    await server.register([require('./posts/posts_list/index.js'), 
+                          require('./posts/posts_insert/index.js')]);
     await server.register([
         Inert,
         Vision,

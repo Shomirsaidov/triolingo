@@ -9,7 +9,7 @@ module.exports = {
     config: {
         handler: Handler,
         // validate: Validate,
-        auth: 'jwt',
+        auth: false,
         description: 'Register',
         notes: 'Some note',
         tags: ['api']
