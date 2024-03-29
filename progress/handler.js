@@ -42,7 +42,7 @@ module.exports = async (request, h) => {
             let a = new_level.split('-')
             let level = a[0]
             let lesson = a[1]
-            await knexInstance('users').update({level, lesson}).where('name', request.auth.credentials.user)
+            await knexInstance('users').update({level, lesson}).where('name', username_decoded)
 
             return new_level
 
