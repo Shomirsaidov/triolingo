@@ -16,6 +16,7 @@ const Login = require('./auth/login/index.js')
 const Profile = require('./profile/index.js')
 const Lesson = require('./lessons/index.js')
 const Progress = require('./progress/index.js')
+const Vocabulary = require('./vocabulary/')
 
 
 
@@ -45,7 +46,8 @@ const init = async () => {
                           {plugin: Login}, 
                           {plugin: Profile},
                           {plugin: Lesson}, 
-                          {plugin: Progress}])
+                          {plugin: Progress},
+                          {plugin: Vocabulary}])
 
 
   await server.register([

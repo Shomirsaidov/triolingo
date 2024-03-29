@@ -1,11 +1,11 @@
 module.exports = {
     "app": {
-        "name": "Posts List",
+        "name": "Vocabulary",
         "version": "1.0.0",
-        "description": "Returns posts for the feed"
+        "description": "Lessons Vocabulary"
     },
     "route": {
         "method": "GET",
-        "url": "/posts"
+        "url": "/vocabulary/{lesson_id}"
     }
 }
